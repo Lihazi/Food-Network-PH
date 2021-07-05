@@ -31,10 +31,7 @@ body{
     border: 2px solid orange;
     padding: 20px 30px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+   
 }
 
 
@@ -86,10 +83,55 @@ body{
     background-image: linear-gradient(to right, rgb(255, 153, 0),rgba(243, 0, 0, 0.74));
     padding: 20px 25px;
     border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+}
+
+#about-me{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me-left{
+    width: 40%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-left img{
+    width: 50%
+    
+}
+
+.about-me-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+.about-me-right p{
+    font-weight: 500;
+}
+
+.about-me-right h1{
+    font-size: 45px;
+    color: grey;
+}
+
+.about-me-right a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(255, 153, 0),rgba(243, 0, 0, 0.74));
+    padding: 20px 25px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     width: 120px;
