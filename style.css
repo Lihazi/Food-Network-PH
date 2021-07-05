@@ -89,7 +89,7 @@ body{
 }
 
 #about-me{
-    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -135,4 +135,58 @@ body{
     display: flex;
     justify-content: center;
     width: 120px;
+}
+
+.container-menu{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.menu-heading{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.menu-heading h1{
+    text-align: center;
+    font-size: 30px;
+    color: grey;
+}
+
+.menu-heading p{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(99, 97, 97);
+}
+
+.cards{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.card{
+    width: 30%;
+   box-shadow:  8px 8px 35px #808080b8;
+   border-radius: 20px;
+  margin-left: 5%;
+}
+
+.card-elements{
+    padding: 20px;
+}
+
+.card-elements img{
+    width: 100%;
+}
+
+.card-elements h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.card-elements p{
+    color:rgb(99, 97, 97) ;
+    font-weight: 600;
 }
