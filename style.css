@@ -2,26 +2,21 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.menu-bar{
-    display: flex;
+#menu-bar{
     margin-top: 2%;
 }
 
 .logo{
     text-align: left;
     width:20% ;
-
 }
 
-.logo img{
-    padding-left: 20%;
-}
+
 
 .list-item{
     display: flex;
     width: 80%;
     justify-content: flex-end;
-    padding-right: 5%;
 }
 
 
@@ -40,4 +35,62 @@ body{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+}
+
+
+.container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header{
+    margin-top:5% ;
+}
+
+.header-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+.header-left h1{
+    font-size: 55px;
+    color: rgb(85, 82, 82);
+    font-weight:700;
+    
+}
+
+.header-left h1 span{
+    color: coral;
+}
+
+.header-right{
+    width: 50%;
+}
+
+.header-left p{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.header-left a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(255, 153, 0),rgba(243, 0, 0, 0.74));
+    padding: 20px 25px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
 }
