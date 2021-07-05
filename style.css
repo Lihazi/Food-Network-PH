@@ -1,0 +1,43 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu-bar{
+    display: flex;
+    margin-top: 2%;
+}
+
+.logo{
+    text-align: left;
+    width:20% ;
+
+}
+
+.logo img{
+    padding-left: 20%;
+}
+
+.list-item{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+
+
+.list-item h4{
+    margin-left: 50px;
+}
+
+.list-item h4 a{
+    text-decoration: none;
+    color:Grey;
+    border: 2px solid orange;
+    padding: 20px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
