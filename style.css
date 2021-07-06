@@ -1,5 +1,6 @@
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 #menu-bar{
@@ -171,7 +172,15 @@ body{
     width: 30%;
    box-shadow:  8px 8px 35px #808080b8;
    border-radius: 20px;
-  margin-left: 5%;
+ 
+}
+
+.first-item{
+    margin-right: 5%;
+}
+
+.second-item{
+    margin-right: 5%;
 }
 
 .card-elements{
@@ -189,4 +198,60 @@ body{
 .card-elements p{
     color:rgb(99, 97, 97) ;
     font-weight: 600;
+}
+
+#followers{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.container-followers{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow:8px 8px 35px #808080b8 ;
+    border-radius:20px ;
+   
+}
+
+.item{
+    width: 33%;
+    margin-left: 15%;
+}
+
+.item h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.item span{
+    font-weight: 700;
+    color: rgb(99, 97, 97);
+}
+
+.footer-content{
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.footer-content h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(99, 97, 97);
+}
+
+.footer-content p{
+    text-align: center;
+    color: rgb(131, 128, 128);
+    font-weight: 600;
+}
+
+.footer-content h1 span{
+    color: coral;
+}
+
+#footer{
+    background-color:black;
 }
